@@ -1,3 +1,12 @@
 {
-  "recommendations": ["Vue.volar"]
+  "recommendations": [
+    "MS-CEINTL.vscode-language-pack-zh-hans",
+    "Vue.volar",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "sdras.vue-vscode-snippets",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag"
+  ]
 }
