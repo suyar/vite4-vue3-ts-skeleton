@@ -5,6 +5,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  plugins: ['vue', '@typescript-eslint', 'prettier'],
   extends: [
     'eslint:recommended',
     'plugin:vue/vue3-essential',
@@ -17,7 +18,6 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
-  plugins: ['vue', '@typescript-eslint'],
   rules: {},
   globals: {
     defineProps: 'readonly',
