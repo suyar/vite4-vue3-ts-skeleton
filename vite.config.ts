@@ -30,6 +30,7 @@ export default defineConfig({
     AutoImport({
       resolvers: [AntDesignVueResolver()],
       dts: false,
+      vueTemplate: true,
     }),
     Components({
       dirs: ['src/components'],
