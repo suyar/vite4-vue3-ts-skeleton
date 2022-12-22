@@ -19,11 +19,8 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      less: {
-        javascriptEnabled: false,
-        modifyVars: {
-          // hack: `true; @import '@less/config.less'`,
-        },
+      scss: {
+        // additionalData: `@import "@/styles/var.scss";`,
       },
     },
   },
